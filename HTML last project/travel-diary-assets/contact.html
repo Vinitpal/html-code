@@ -24,6 +24,15 @@ top: 0;
 padding: 16px;
 }
 
+.nav-item {
+font-size: 28px;
+}
+
+.nav-item:hover {
+background-color: cyan;
+text-decoration: underline;
+}
+
 #register-form{
 border-color: #ccc;
 border-width: 1px;
@@ -56,11 +65,10 @@ height:16px;
 font-size: 18px;
 padding-bottom: 12px;
 margin-bottom: 32px;
-border-top: 0;
-border-left: 0;
-border-right: 0;
+outline: none;
+border: none;
 border-bottom: 1px solid blue;
-background-color: lightblue;
+background-color: transparent;
 }
 
 .submit-box{
@@ -72,14 +80,18 @@ padding-right: 24px;
 font-size: 18px;
 color: white;
 border: none;
+outline: none;
+border-radius: 5px;
 }
 
-footer{
-font-size: 28px;
+
+a {
+font-size: 20px;
 text-align: center;
-word-spacing: 40px;
-background-color: white;
+text-decoration: none;
+color: black;
 }
+
 
 </style>
 </head>
@@ -91,9 +103,9 @@ background-color: white;
 
 <header id="header">
 <nav id="navbar">                                   
-<span><a href="Travel-diary.html">TRIP</a></span>
-<span><a href="about.html">ABOUT</a></span>
-<span><a href="contact.html">CONTACT</a></span>                           
+<span><a class="nav-item" href="travel-diary.html">TRIP</a></span>
+<span><a class="nav-item" href="about.html">ABOUT</a></span>
+<span><a class="nav-item" href="contact.html">CONTACT</a></span>                           
 </nav>
 </header>
 
@@ -115,19 +127,6 @@ background-color: white;
 <p style="text-align:center"> <input class="submit-box" type="submit" name="register" value="Register" /> </p>
 
 </div>
-</form>
-
-
-<!------------------ Footer ----------------------------->
-
-
-<footer>
-<nav id="navbar">                                   
-<span><a href="Travel-diary.html">TRIP</a></span>
-<span><a href="about.html">ABOUT</a></span>
-<span><a href="contact.html">CONTACT</a></span>                             
-</nav>
-</footer>
-  
+</form>  
 </body>
 </html>

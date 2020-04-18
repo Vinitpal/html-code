@@ -14,6 +14,15 @@
 padding: 16px;
 }
 
+.nav-item {
+font-size: 28px;
+}
+
+.nav-item:hover {
+background-color: cyan;
+text-decoration: underline;
+} 
+
 header{
 font-size: 28px;
 text-align: center;
@@ -28,6 +37,7 @@ padding-top: 40px;
 font-size: 36px;           
 text-align: center;
 font-style: italic;
+padding-bottom: 30px;
 }
 
 
@@ -38,6 +48,14 @@ max-width: 90%;
 margin: 0 auto 5px auto;
 text-align: left; 
 }  
+
+a {
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+color: black;
+}
+
 </style>
 </head>
 
@@ -47,9 +65,9 @@ text-align: left;
 
 <header id="header">
 <nav id="navbar">                                   
-<span><a href="Travel-diary.html">TRIP</a></span>
-<span><a href="about.html">ABOUT</a></span>
-<span><a href="contact.html">CONTACT</a></span>                             
+<span><a class="nav-item" href="travel-diary.html">Home</a></span>
+<span><a class="nav-item" href="about.html">About</a></span>
+<span><a class="nav-item" href="contact.html">Contact</a></span>                             
 </nav>
 </header>
 
