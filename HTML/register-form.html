@@ -1,0 +1,85 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Register-Form</title>
+        <style>
+            body {
+                background-color: #f2f6ff;
+            }
+
+            form {
+                width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                border: solid 1px #ccc;
+                background-color: white;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 32px;
+                padding-top: 56px;
+                padding-bottom: 32px;
+            }
+
+            #logo-section {
+                height: 80px;
+                background-color: #f2f6ff;
+            }
+
+            img {
+                width: 50px;
+                height: 50px;
+                padding: 16px 32px 16px 32px;
+            }
+
+            .input-field-containers {
+                padding: 80px 80px 0px 80px;
+            }
+
+            .input-items {
+                font-size: 18px;
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #ccc;
+                background-color: transparent;
+            }
+
+            #submit-button {
+                background-color: #0056ff;
+                padding: 12px 24px 12px 24px;
+                margin-bottom: 16px;
+                font-size: 18px;
+                color: white;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1>Register</h1>
+            <div id="logo-section">
+                <img src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="google">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="facebook">
+                <img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="github">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="linkedin">
+            </div>
+            <div class="input-field-containers">
+                <input class="input-items" type="text" name="username" placeholder="Username" required >
+            </div>
+            <div class="input-field-containers">
+                <input class="input-items" type="email" name="email" placeholder="Email" required >
+            </div>
+            <div class="input-field-containers">
+                <input class="input-items" type="password" name="password" placeholder="Password" required >
+            </div>
+            <div class="input-field-containers">
+                <input class="input-items" type="password" name="confirm-pass" placeholder="Confirm Password" required >
+            </div>
+            <div class="input-field-containers">
+                <input id="submit-button" type="submit" name="register" value="Register" > 
+            </div>
+        </form>
+    </body>
+</html>
