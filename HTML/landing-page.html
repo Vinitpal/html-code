@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Landing Page</title>
+    <style>
+
+body {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 1.8px;
+    }
+
+    header {
+      position: sticky;
+      top: 0%;
+      background-color: #FFDC72;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .left-nav {
+      margin-top: 5px;
+      margin-left: 16px;
+      word-spacing: 28px;
+      font-size: 28px;
+    }
+
+    .left-nav span {
+      opacity: 0.6;
+    }
+
+    .left-nav a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .left-nav span:hover {
+      opacity: 1;
+    }
+
+    .right-nav button {
+      margin-top: 5px;
+      margin-right: 12px;
+      padding: 12px;
+      font-size: 18px;
+      background-color: transparent;
+      color: lightcoral;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+
+    #sec1 {
+      display: flex;
+      justify-content: space-between;
+      background: linear-gradient(to bottom, #FFDC72, #CAEDA5);
+    }
+
+    .left-side img {
+      width: 70%;
+      height: 80vh;
+    }
+
+    .right-side {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin-top: 42px;
+      position: relative;
+      right: 5%;
+    }
+
+    .right-side h1 {
+      font-size: 48px;
+      font-family: monospace;
+    }
+
+    .right-side p {
+      margin-top: -12px;
+      margin-left: 12px;
+    }
+
+    .right-side button {
+      width: 40%;
+      padding: 12px 8px;
+      margin: 16px 0px 16px 16px; 
+      font-size: 18px;
+      background-color: blue;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+
+    button:hover {
+      background-color: lightcoral;
+      color: black;
+    }
+
+    #sec2 {
+      margin-top: 54px;
+      margin-left: 12px;
+    }
+
+    #sec2 div {
+      margin-top: 54px;
+    }
+
+    #sec2 img {
+      width: 400px;
+      height: 300px;
+      margin-right: 16px;
+      border-radius: 5%;
+    }
+
+    #div1 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    #div2 {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+    }
+
+    #div3 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .text {
+      width: 50%;
+      margin-top: 56px;
+    }
+
+    .text h2 {
+      font-size: 28px;
+      font-family: monospace;
+      margin-left: -12px;
+    }
+
+    #sec3 {
+      margin-top: 120px;
+      text-align: center;
+    }
+
+    footer {
+      height: 250px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 48px;
+      background-color: black;
+      color: white;
+    }
+
+    .filler-list {
+      margin-top: 82px;
+    }
+
+    .center-footer a {
+      text-decoration: none;
+      color: white;
+    }
+
+    ul li {
+      list-style: none;
+      line-height: 1.8;
+    }
+
+    .center-footer a:hover {
+      color: lightcoral;
+    }
+
+    ul li:hover {
+      cursor: pointer;
+      color: lightcoral;
+    }
+
+    @media screen and (max-width: 768px) {
+      
+      nav left-nav {
+        margin: auto;
+      }
+      
+      nav .right-nav {
+        display: none;
+      }
+
+      #sec1 {
+        flex-direction: column;
+      }
+
+      .left-side img {
+        width: 100%;
+      }
+
+      .right-side {
+        width: auto;
+        margin-top: 0px;
+        text-align: center;
+        position: static;
+      }
+
+      .right-side p {
+        margin: 0;
+      }
+
+      .right-side button {
+        margin: 20px auto;
+      } 
+
+      #div1, #div2, #div3 {
+        flex-direction: column;
+      }
+
+      #sec2 img {
+        width: 335px;
+        height: 265px;
+        margin: 0px auto;
+      }
+
+      .text {
+        margin: 10px auto;
+        text-align: center;
+      }
+
+      #sec3 {
+        margin: 80px auto;
+      }
+
+      .contact-img {
+        width: 250px;
+        margin-left: -18px;
+      }
+
+      .left-footer {
+        margin-left: -32px;
+      }
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left-nav">
+          <span><a href="#sec1">Home</a></span>
+          <span><a href="#sec2">About</a></span>
+          <span><a href="#sec3">Contact</a></span>
+        </div>
+        <div class="right-nav">
+          <span><button>Get Started!</button></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="sec1">
+        <div class="left-side">
+          <img src="https://cdn.discordapp.com/attachments/599791078614499328/703192783300591636/work-4997565_1280.png" alt="work-home-image" >
+        </div>
+        <div class="right-side">
+          <h1>Work from Home</h1>
+          <p>Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor.</p></br>
+          <p>Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor.</p>
+        </br></br></br></br>
+          <p>Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor.</p>
+          <button>Get Started!</button>
+        </div>
+      </section>
+      <section id="sec2">
+        <div id="div1">
+          <img src="https://image.freepik.com/free-vector/telecommuting-concept_23-2148496139.jpg" alt="work home1">
+          <span class="text">
+            <h2>Work while eating snacks!</h2>
+            <p>Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor. Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor.</p>
+          </span>
+        </div>
+        <div id="div2">
+          <img src="https://image.freepik.com/free-vector/flat-illustration-character-working-computer-home-prevention-from-corona-virus_155707-26.jpg" alt="work home2">
+          <span class="text">
+            <h2>No disturbance (if locked in room :p )</h2>
+            <p>Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor. Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor.</p>
+          </span>
+        </div>
+        <div id="div3">
+          <img src="https://image.freepik.com/free-vector/man-working-from-home-concept_23-2148493925.jpg" alt="work home3">
+          <span class="text">
+            <h2>Save the world by self-isolation</h2>
+            <p>Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor. Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor.</p>
+          </span>
+        </div>
+      </section>
+      <section id="sec3">
+        <div>
+          <img class="contact-img" src="https://image.freepik.com/free-vector/contact-concept-landing-page_23-2148252706.jpg" alt="contact us">
+          <h1>Got stuck? Need help?</h1 >
+          <h2>Contact us</h2>
+          <p>
+            Our Email: LoremIpsum@gmail.com</br>
+            Phone no.: 9999999999</br>
+            whatsapp: 999999999</br>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="left-footer">
+        <ul class="filler-list">
+          <li>Lorem</li>
+          <li>Ipsum</li>
+          <li>Dolor</li>
+          <li>Blah blah</li>
+        </ul>
+      </div>
+      <div class="center-footer">
+        <p>Made by: @Vinit</br>
+        Find me at:</p>
+        <ul>
+          <li><a href="https://twitter.com/vinitpal_arora" target="_blank" >Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/vinitpal-singh-0718a3191" target="_blank" >Linkedin</a></li>
+          <li><a href="https://github.com/Vinitpal" target="_blank" >Github</a></li>
+        </ul>  
+      </div>
+      <div class="right-footer"> 
+        <ul class="filler-list">
+          <li>Lorem</li>
+          <li>Ipsum</li>
+          <li>Dolor</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
