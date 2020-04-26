@@ -135,7 +135,6 @@ nav {
 
 .sec2 i:hover {
   transform: scale(1.1);
-  cursor: pointer;
 }
 
 .sec2 h1 {
@@ -166,3 +165,367 @@ nav {
 .sec2 .step4 {
   background-color: #f69dad;
 }
+
+/* -------------------Section 3 / Store-section ------------------- */
+
+.sec3 {
+  width: 100%;
+  padding: 75px 0;
+  text-align: center;
+  background-color: #f7eee2;
+}
+
+.fresh-food-text {
+  margin: 0;
+  margin-top: 35px;
+  font-size: 24px;
+  font-family: 'Caveat', cursive;
+  color: #91ac41;
+}
+
+.sec3 h1 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 44px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.sec3-desc {
+  margin: 16px 0px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+}
+
+.store-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  padding-bottom: 0px;
+}
+
+.store-item {
+  width: 25%;
+  text-align: center;
+  padding: 24px
+}
+
+.store-item i {
+  padding: 40px;
+  font-size: 60px;
+  border-radius: 50%;
+  color: white;
+  background-color: #e3b375;
+}
+
+.store-item i:hover {
+  transform: scale(1.1);
+}
+
+.store-item h1 {
+  margin: 24px 0px;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* -------------------Section 4 / Testimony-section ------------------- */
+
+.sec4 {
+  width: 100%;
+  padding: 75px 0;
+  text-align: center;
+}
+
+.sec4 h1 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 44px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.sec4-desc {
+  max-width: 700px;
+  margin: 0 auto 55px auto;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #8b8b99;
+}
+
+.testimony-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.testimony-item {
+  width: 25%;
+  margin: 16px;
+  text-align: center;
+  padding: 40px 30px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  background-color: #f5f6fb;
+  transition: box-shadow 0.3s;
+}
+
+.testimony-item:hover {
+  box-shadow: 0 12px 16px 0 rgba(39,39,47,0.06);
+}
+
+.testimony-item img {
+  width: 80px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+}
+
+.testimony-msg {
+  margin-bottom: 24px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  color: #8b8b99;
+}
+
+.testimony-author {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.author-job {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  color: #8b8b99;
+}
+
+/* --------Section 5/ Follow-us-section ---------------*/
+
+.sec5 {
+  display: flex;
+}
+
+.right-berry {
+  width: 70%;
+  margin: 0;
+}
+
+.right-berry img {
+  width: 100%;
+}
+
+.left-berry {
+    width: 34%;
+    margin: 0;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-position: left;
+    background-size: cover;
+}
+
+.text-wrapper {
+  margin: 115px;
+}
+
+.text-wrapper h1 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 44px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.text-wrapper p {
+  margin: 0;
+  line-height: 1.6;
+  letter-spacing: 0.5;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #8b8b99;
+}
+
+.text-wrapper input {
+  width: 100%;
+  margin-top: 60px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  color: #8b8b99;
+  outline: none;
+}
+
+.text-wrapper button {
+  padding: 16px 42px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 16px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: #f69dad;
+  color: white;
+}
+
+.text-wrapper button:hover {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #f69dad;
+}
+
+/* -------------------Section 6/ stats-section ------------------- */
+
+
+.sec6 {
+  background-color: #f5f6fb;
+}
+
+.stats-wrapper {
+  width: 100%;
+  padding: 100px 0;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: stretch;
+  font-family: 'Poppins', sans-serif;
+}
+
+.stats {
+  width: 25%;
+  padding: 0 64px;
+}
+
+.stats h1 {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.stats p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  color: #57e3b5;
+}
+
+
+/* -------------------Section 7/ video-section ------------------- */
+
+.video-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  text-align: center;
+}
+
+.video-wrapper h1 {
+  font-size: 44px;
+  font-weight: 400;
+  color: #8b8b99;
+}
+
+.line-separator {
+  width: 96px;
+  display: inline-block;
+  height: 1px;
+  background-color: #e4b476;
+  margin-bottom: 36px;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 425px;
+}
+
+/* -------------------Section 8/ contact-section ------------------- */
+
+.contact-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.left-contact {
+  width: 50%;
+}
+
+.right-contact {
+  width: 40%;
+}
+
+
+.green-text {
+  color: #91ac41;
+  font-size: 24px;
+  font-family: 'Caveat', cursive;
+  margin: 0;
+  margin-top: 35px;
+}
+
+.sec7 h1 {
+  font-size: 44px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.sec7 h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 32px;
+}
+
+.contact-text {
+  margin: 16px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8b99;
+  letter-spacing: 0.5px;  
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-box {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #8b8b99;
+  border-radius: 6px;
+  border: 1px solid #e5e6ec; 
+  box-sizing: border-box;
+}
+
+footer {
+  padding:  30px 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  background-color: black;
+  color: white;
+}
+
