@@ -6,7 +6,8 @@ header {
   width: 100%;
   height: 100vh;
   background: url('https://i.imgur.com/5xAkZg9.jpg');
-  background-position: bottom;
+  background-position: left;
+  background-repeat: no-repeat;
   background-attachment: cover;
 }
 
@@ -192,7 +193,7 @@ nav {
 }
 
 .sec3-desc {
-  margin: 16px 0px;
+  margin: 16px 0px 55px 0px;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -474,7 +475,6 @@ nav {
   width: 40%;
 }
 
-
 .green-text {
   color: #91ac41;
   font-size: 24px;
@@ -483,14 +483,15 @@ nav {
   margin-top: 35px;
 }
 
-.sec7 h1 {
+.sec8 h1 {
   font-size: 44px;
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
-.sec7 h3 {
+.sec8 h3 {
   font-size: 24px;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   margin: 0;
   margin-top: 32px;
@@ -499,11 +500,10 @@ nav {
 .contact-text {
   margin: 16px 0;
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #8b8b99;
   letter-spacing: 0.5px;  
-
-  font-family: 'Poppins', sans-serif;
 }
 
 .input-box {
@@ -529,3 +529,102 @@ footer {
   color: white;
 }
 
+/* ----------------Responsive-Version-------------------- */
+
+@media (max-width: 900px) {
+  
+  .menu-item {
+    display: none;
+  }
+
+  .sec1 h1 {
+    font-size: 28px;
+  }
+
+  .sec1 p {
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .sec2 {
+    flex-direction: column;
+  }
+
+  .sec2 div {
+    width: 100%;
+  }
+
+  .sec3 {
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .store-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .store-item {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .sec4 {
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .sec4 h1 {
+    font-size: 28px;
+
+  }
+
+  .testimony-wrapper {
+    flex-direction: column;
+  }
+
+  .testimony-item {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .right-berry {
+    width: 100%;
+  }
+
+  .left-berry {
+    width: 100%;
+  }
+
+  .text-wrapper {
+    margin: 16px;
+  }
+  
+  .text-wrapper h1 {
+    font-size: 28px;
+  }
+
+  .sec5 {
+    flex-direction: column;
+  }
+
+  .stats-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .contact-container {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 16px;
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+
+  .contact-container div {
+    width: 100%;
+  }
+}
