@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+}
+
+/* <!--------Nav-bar----> */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.left-nav {
+  display: flex;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  margin: 0px 16px;
+}
+
+.search-area {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.search-box {
+  width: 40%;
+  height: 30px;
+  padding-left: 5px;
+  border: 1px solid #ccc;
+  border-top-style: groove;
+  outline: none;
+  font-size: 15px;
+}
+
+.search-btn {
+  width: 13%;
+  height: 32px;
+  padding: 9px 0px 8px 0px;
+  margin-bottom: 10px;
+  background-color: teal;
+  color: white;
+  border: 1px solid transparent;
+  border-top: 1px groove black;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: cyan;
+  border-color: black;
+  color: black;
+}
+
+.navbar-links a {
+  margin-right: 12px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: orange;
+  cursor: pointer;
+}
+
+.navbar-links a:hover {
+  color: coral;
+}
+
+.navbar-pfp {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.username-wrapper {
+  margin-right: 16px;
+}
+
+.username-wrapper h3{
+  margin: 0;
+  font-size: 20px;
+}
+
+.username-wrapper p {
+  margin: 0;
+  margin-top: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+.username-wrapper p:hover{
+  color: coral;
+}
+
+.pfp img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* <!------Landing-section---------> */
+
+.landing-section {
+  width: 100%;
+  height: 80vh;
+  background-image: url(https://cdn.discordapp.com/attachments/641570546198249472/704574227168362576/hu-chen-FZ0qzjVF_-c-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  z-index: -1;
+}
+
+.landing-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.landing-area h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.landing-discount {
+  color: orange;
+  margin: 0;
+  margin-top: 20px;
+}
+
+/* <!-------banner-section--------> */
+
+.banner-section {
+  width: 100%;
+  align-items: center;
+  margin-top: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+}
+
+.banner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-wrapper h1 {
+  font-size: 28px;
+  margin: 0;
+  color: teal;
+}
+
+.banner-wrapper h3 {
+  font-size: 24px;
+  margin: 0;
+  color: orange;
+}
+
+.banner-wrapper p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.boots {
+  width: 200px;
+  height: 200px;
+}
+
+.line-divider {
+  width: 90%;
+  height: 1px;
+  background-color: #e4b476;
+  margin: 36px auto;
+}
+
+/* <!-------Items-section---------> */
+
+.item-section {
+  width: 100%;
+  margin: 100px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.item-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.item img {
+  width: 250px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.item-text {
+  margin-top: 12px;
+}
+
+.item-text h1 {
+  margin: 0;
+  font-size: 30px;
+  color: teal;
+  letter-spacing: 0.8px;
+}
+
+.item-text p {
+  margin: 0;
+  font-size: 14px;
+  color: orange;
+}
+
+/* <!----------Review-section----------> */
+
+.mountain-img {
+  width: 50%;
+  height: 50vh;
+  background-image: url('https://pixabay.com/get/53e3d74b4f55b108feda8460c62e367b113ddfe54e5074417d2f73d69e4dc6_1920.jpg');
+  background-position: left;
+}
